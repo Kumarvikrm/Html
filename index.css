@@ -1,0 +1,42 @@
+.tableContainer {
+  border-collapse: collapse;
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+th,td {
+  border: 1.5px solid #b0adad;
+  padding: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+}
+.labData{
+  letter-spacing: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+.lunchData{
+ writing-mode: vertical-rl;
+ text-orientation: upright;
+ font-weight: bold;
+ text-align: center;
+}
+th{
+  background-color: rgb(242, 239, 224);
+}
+tr:nth-child(even){
+  background-color: #f6f7ff;
+}
+tr:nth-child(odd){
+  background-color: #e0e5ea;
+}
+caption{
+  color: #ac2424;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border: 1px solid #ddd;
+  text-transform: uppercase;
+  text-decoration: underline;
+}

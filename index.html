@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Table</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <table class="tableContainer">
+    <caption>Course Schedule</caption>
+    <thead class="tableHead">
+      <tr>
+        <th>Day/Period</th>
+        <th>1 <br>9:30 to 10:20</th>
+        <th>2 <br>10:20 to 11:10</th>
+        <th>12:10 to 12:40</th>
+        <th>4 <br>12:40 to 1:10</th>
+        <th>5 <br>1:20 to 2:00</th>
+      </tr>
+    </thead>
+    <tbody class="styleRow">
+      <tr>
+        <td>Monday</td>
+        <td>English</td>
+        <td>Math</td>
+        <td class="lunchData" rowspan="6">LUNCH</td>        
+        <td>Chemistry</td>        
+        <td></td>        
+      </tr>
+      <tr>
+        <td>Tuesday</td>
+        <td class="labData" colspan="2">LAB</td>
+        <td>Physics</td>
+        <td>English</td>                      
+      </tr>
+      <tr>
+        <td>Wednesday</td>
+        <td>Physics</td>
+        <td>English</td>
+        <td>Chemistry</td>        
+        <td>Chemistry</td>               
+      </tr>
+      <tr>
+        <td>Thrasday</td>
+        <td>Physics</td>
+        <td>English</td>
+        <td>Camistry</td>        
+        <td></td>              
+      </tr>
+      <tr>
+        <td>Friday</td>
+        <td class="labData" colspan="2">LAB</td>  
+        <td>Math</td>        
+        <td>Math</td>        
+      </tr>
+      <tr>
+        <td>Saturday</td>
+        <td>English</td>
+        <td>Chemistry</td>
+        <td>Math</td>        
+        <td></td>              
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
